@@ -1,5 +1,6 @@
 import 'package:apis_integration/home_page.dart';
 import 'package:apis_integration/home_page2.dart';
+import 'package:apis_integration/product_model_Api_integration.dart';
 import 'package:apis_integration/user_model_api_integration.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const UserModelApiIntegration());
+        home: const ProductModelApiIntegration());
   }
 }
